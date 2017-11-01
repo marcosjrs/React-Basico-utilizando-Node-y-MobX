@@ -4,7 +4,10 @@ import VarPrincipalData from './PrincipalData';
 class Principal extends Component{
     render(){
         return (
-            <h1>Componente Principal</h1>
+            <div>
+                <h1>Componente Principal</h1>
+                <div>Numero: {VarPrincipalData.numero}</div>
+            </div>
         );
     }
 }

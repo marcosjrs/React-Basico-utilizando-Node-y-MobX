@@ -1,4 +1,4 @@
-import { extendObservable, computed } from 'mobx';
+import { extendObservable } from 'mobx';
 
 class PrincipalData{
     constructor(){
@@ -11,6 +11,6 @@ class PrincipalData{
     }
 }
 
-var VarPrincipalData = new PrincipalData;
+var VarPrincipalData = new PrincipalData();
 
 export default VarPrincipalData;
