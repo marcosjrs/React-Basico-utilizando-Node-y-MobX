@@ -6,8 +6,12 @@ class PrincipalData{
         extendObservable(this,
             {
                 numero: 0
-            })
+            });
 
+    }
+    
+    incrementar(){
+        this.numero++;
     }
 }
 
