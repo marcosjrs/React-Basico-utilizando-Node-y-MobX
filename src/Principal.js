@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {observer} from 'mobx-react'; // para observar PrincipalData
 import VarPrincipalData from './PrincipalData';
 import Incrementador from './Incrementador';
+import Decrementador from './Decrementador';
 
 class Principal extends Component{    
     render(){
@@ -10,6 +11,7 @@ class Principal extends Component{
                 <h1>Componente Principal</h1>
                 <div>Numero: {VarPrincipalData.numero}</div>
                 <Incrementador />
+                <Decrementador />
             </div>
         );
     }

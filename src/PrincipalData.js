@@ -9,9 +9,13 @@ class PrincipalData{
             });
 
     }
-    
+
     incrementar(){
         this.numero++;
+    }
+
+    decrementar(){
+        this.numero--;
     }
 }
 
